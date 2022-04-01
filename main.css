@@ -1,0 +1,28 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
