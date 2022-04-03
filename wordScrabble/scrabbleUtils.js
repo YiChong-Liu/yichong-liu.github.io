@@ -2,17 +2,8 @@
 
 // Here, we import the dictionary of scrabble words.
 import { dictionary } from "./dictionary.js";
-// console.log(dictionary.length);
-/**
- * This function checks whether a given word can be constructed with the
- * available tiles. The availableTiles object should not be modified.
- *
- * @param {Object<string, number>} availableTiles A collection of available
- * tiles and their frequency.
- * @param {string} word The word a player wants to construct.
- * @returns {boolean} true if the word can be constructed with the available
- * tiles, else false.
- */
+
+
 function canConstructWord(availableTiles, word) {
   // TODO
   const copy = {};
@@ -43,14 +34,7 @@ function canConstructWord(availableTiles, word) {
   return true;
 }
 
-/**
- * We define the base score of a word the score obtained by adding each letter's
- * score, without taking board position into account. This function will compute
- * and return the base score of a given word.
- *
- * @param {string} word The word that will be used to compute the base score.
- * @returns {number} The base score for the given word.
- */
+
 function baseScore(word) {
   // TODO
   let point = {
@@ -66,30 +50,11 @@ function baseScore(word) {
   return res;
 }
 
-/**
- * Finds and returns every word from the dictionary that can be constructed with
- * the given tiles.
- *
- * @param {Object<string, number>} availableTiles A collection of available
- * tiles and their frequency.
- * @returns {Array<string>} All words that can be constructed with the given
- * tiles. The array is empty if there are no words available to construct.
- */
 function possibleWords(availableTiles) {
   // TODO
   return dictionary.filter(x => canConstructWord(availableTiles, x));
 }
 
-/**
- * Finds and returns the word(s) with the highest base score from the
- * dictionary, given a set of available tiles.
- *
- * @param {Object<string, number>} availableTiles A collection of available
- * tiles and their frequency.
- * @returns {Array<string>} The word (or words if there are ties) with the
- * highest base score that can be constructed with the given tiles. The array is
- * empty if there are no words available to construct.
- */
 function wordGenerator(availableTiles) {
   // make a copy
   let copy = {};
@@ -154,13 +119,6 @@ function bestPossibleWords(availableTiles) {
   return bestWord;
 }
 
-/**
- * This function will check if a word is valid, that is if it matches any of 
- * the words in the dictionary.
- * @param {string} word A string containing lowercase letters, with possible wildcards.
- * @returns {boolean} Returns whether the given word is a valid word.
- */
-
 function isValid(word) {
   // TODO
   let judge = false;
@@ -188,7 +146,7 @@ function isValid(word) {
   return judge;
 }
 
-
+/*
 console.assert(isValid("hello") === true);
 console.assert(isValid("h*y") === true);
 console.assert(isValid("fhfks*") === false);
@@ -201,22 +159,15 @@ console.assert(isValid("*f") === true);
 console.assert(isValid("f**d") === true);
 console.assert(isValid("reallybigword") === false);
 console.assert(isValid("") === false);
-/**
- * This helper function will make a copy of a set of available tiles.
- * As you can see, this function is NOT exported. It is just a helper 
- * function for other functions in this file.
- * @param {Object<string, number>} availableTiles A mapping of available tiles 
- *                                                to their amount.
- * @returns {Object<string, number>} A copy of the parameter. 
- */
+*/
  function copyAvailableTiles(availableTiles) {
   // TODO
   let newTiles = {...availableTiles};
   return newTiles;
 }
 
-// Homework 2 tests.
-let abcdefg_words = [// collected via: http://www.allscrabblewords.com/unscramble/abcdefg although there were some not present in dictionary.js - I found those, verified they don't exist in the dictionary, removed them from this list and added the only word that exists in the dictionary but not on the website: 'fag'
+
+/*let abcdefg_words = [// collected via: http://www.allscrabblewords.com/unscramble/abcdefg although there were some not present in dictionary.js - I found those, verified they don't exist in the dictionary, removed them from this list and added the only word that exists in the dictionary but not on the website: 'fag'
   'badge','cadge','caged','decaf','faced','fadge','abed','aced','aged','bade','bead','cade','cafe','cage','dace','deaf','egad','face','fade','gaed','ace','age','bad','bag','bed','beg','cab','cad','dab','dag','deb','fad','fag','fed','gab','gad','gae','ged','ab','ad','ae','ag','ba','be','de','ed','ef','fa'
 ];
 let pw_abcdefg_results = possibleWords({'a':1,'b':1,'c':1,'d':1,'e':1,'f':1,'g':1});
@@ -237,7 +188,7 @@ let bpw_q_i_2WC = [ // checked via: https://scrabblewordfinder.org/solver - the 
 ];
 let bpw_results2 = bestPossibleWords({'q':1, 'i':1, '*':2});
 console.assert(bpw_q_i_2WC.every(word => bpw_results2.includes(word)), "bestPossibleWords failed to find the best possible words given 2 wildcards");
-
+*/
 
 // This exports our public functions.
 export { canConstructWord, baseScore, possibleWords, bestPossibleWords, isValid, copyAvailableTiles };

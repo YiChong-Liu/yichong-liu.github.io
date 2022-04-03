@@ -1,5 +1,3 @@
-/* TODO */
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(15, auto);
