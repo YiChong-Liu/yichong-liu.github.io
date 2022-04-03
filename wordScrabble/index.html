@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scrabble</title>
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1 style="margin: auto auto auto auto; width:616px; padding-bottom: 20px;">Welcome To Yichong Liu's Scrabble Game!</h1>
+    <!-- TODO -->
+    <!-- Add anything you need for your JavaScript code to work with. -->
+    <div class="grid-container" id="theBoard"> </div>
+    
+    <form style="padding-top:10px; margin: auto auto auto auto; width:616px;">
+      <label>Word: </label>
+      <input type="text" id="wordInput" style="width: 100px" />
+      <label>X: </label>
+      <input type="number" id="xInput" style="width: 30px;" />
+      <label>Y: </label>
+      <input type="number" id="yInput" style="width: 30px;" />
+      <label style="margin-left:10px">Direction: </label>
+      <select id="directionInput">
+        <option value="h">horizontal</option>
+        <option value="v">vertical</option>
+      </select>
+      <button type="button" id="clickMe" style="margin-left:7px">Play!</button>
+      <button id="clearButton" style="margin-left:7px;">
+        Reset
+      </button>
+      <button type="button" id="helpButton" style="margin-left:7px;">
+        Help!
+      </button>
+    </form>
+
+    <div id="rackAndHint" >
+      <div class="rack-container float_right" id="theRack"></div>
+      <h3 class="float_left" id="theHint">
+        Hint:
+      </h3>
+    </div>
+  </body>
+</html>

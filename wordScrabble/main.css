@@ -1,0 +1,109 @@
+/* TODO */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(15, auto);
+  grid-template-rows: repeat(15, auto);
+  justify-content: center;
+  grid-gap: 1px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 616px;
+  height: 616px;
+  margin: auto auto auto auto;
+  background-color: black;
+  padding: 1px;
+}
+.rack-container {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(1, auto);
+  justify-content: center;
+  grid-gap: 1px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 287px;
+  height: 40px;
+  margin: 30px auto auto auto;
+  background-color: black;
+  padding: 1px;
+}
+.whiteBox {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  color: black;
+}
+
+.redBox {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.blueBox {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.blue2Box {
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.pinkBox {
+  height: 40px;
+  width: 40px;
+  background-color: pink;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rackAndHint {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  
+}
+
+.float_right {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.float_left {
+  margin-right: auto;
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
