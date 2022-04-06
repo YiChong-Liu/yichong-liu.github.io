@@ -1,3 +1,4 @@
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(15, auto);
@@ -6,8 +7,8 @@
   grid-gap: 1px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 616px;
-  height: 616px;
+  width: 541px;
+  height: 541px;
   margin: auto auto auto auto;
   background-color: black;
   padding: 1px;
@@ -20,66 +21,66 @@
   grid-gap: 1px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 287px;
-  height: 40px;
-  margin: 30px auto auto auto;
+  width: 252px;
+  height: 35px;
+  margin: 12px 0px auto auto;
   background-color: black;
   padding: 1px;
 }
 .whiteBox {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: white;
   text-align: center;
   vertical-align: middle;
-  line-height: 40px;
+  line-height: 35px;
   color: black;
 }
 
 .redBox {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: red;
   color: black;
   text-align: center;
   vertical-align: middle;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .blueBox {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: blue;
   color: black;
   text-align: center;
   vertical-align: middle;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .blue2Box {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: aqua;
   color: black;
   text-align: center;
   vertical-align: middle;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .pinkBox {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: pink;
   color: black;
   text-align: center;
   vertical-align: middle;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -91,17 +92,35 @@
 #rackAndHint {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  
+}
+#rackAndHint2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }
 
-.float_right {
-  margin-left: auto;
-  margin-right: 5px;
+#playerTurn {
+  text-align: center;
 }
-
-.float_left {
-  margin-right: auto;
-  margin-left: 30px;
+#theHint {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#round {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#round2 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#roundGuide {
+  text-align: center;
   margin-top: auto;
-  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wholeLayout {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }

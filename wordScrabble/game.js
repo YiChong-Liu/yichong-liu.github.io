@@ -140,11 +140,13 @@ class Game {
     // TODO
     // edge case
     let t = [];
+    // console.log(this.tiles.length);
     for(let i = 0; i < n; i++) {
       if(this.tiles.length > 0) {
         t.push(this.tiles.pop());
       }
     }
+    // console.log(this.tiles.length);
     return t;
   }
 
