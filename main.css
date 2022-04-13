@@ -1,19 +1,23 @@
 h1 {
     font-size: 40px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     font-size: 35px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     font-size: 30px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
+    margin-top: 10px;
     width: 20%;
     height: 20%;
     border-radius: 50%;
@@ -25,9 +29,34 @@ img {
     margin-right: auto;
 }
 
-p {
+#wordScrabbleGame {
+    margin-top: 20%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
     text-align: center;
+}
+
+.lycNav {
+    background-color:gray;
+    overflow: hidden;
+}
+
+.lycNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.lycNav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.lycNav a.active {
+    background-color:cornflowerblue;
+    color: white;
 }
