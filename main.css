@@ -60,3 +60,8 @@ img {
     background-color:cornflowerblue;
     color: white;
 }
+
+#frontPage {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
