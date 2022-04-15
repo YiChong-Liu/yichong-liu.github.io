@@ -30,10 +30,17 @@ img {
 }
 
 #wordScrabbleGame {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+}
+
+#rentern {
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .lycNav {
