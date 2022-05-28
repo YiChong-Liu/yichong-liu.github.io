@@ -4,9 +4,7 @@
 
 正逢暑期的开始，在享受实习前一个短暂的假期，体验一些人生中难得新鲜的事情。某phd朋友最近因为车辆保养冒出来的天价账单而苦恼，在同我忿忿不平的同时，两人忽然想起从未去过的公寓附近的一个食品救助中心——Amherst Survival Center. 朋友觉得既然都还没摆脱贫困线（麻省规定最低工作薪资为$14.25每小时，也就是$27,360一年，而phd一般也就在$3w出头。很低对不对？不过我也好不到哪里去orz），何不前去看一看。我也欣然陪同，多长长见识。
 
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.616444916941!2d-72.53507828454194!3d42.4146118791833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6d28565320583%3A0xa1552d7ae26d7620!2sAmherst%20Survival%20Center!5e0!3m2!1sen!2sus!4v1653694571513!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<img src="img/../../img/Survival-Center-2.png" alt="Survival Center Map" style="zoom:50%;" />
 
 去之前发生了一件很有意思的事情：我们在商量是否开车前往。由于距离实在不算远（两条街的距离），因此开车看起来有点小题大做。我说：万一东西多的话，用车拉多好。朋友赞同。后来才发现：有车真的多么重要。
 
@@ -22,7 +20,7 @@
 
 
 
-<img src="img/../../img/Survival-Center.png" alt="image-20220527201036536" style="zoom:50%;" />
+<img src="img/../../img/Survival-Center.png" alt="Survival Center Home Page" style="zoom:50%;" />
 
 
 
