@@ -316,7 +316,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #2c3e50 repeat;
   position: relative;
 }
 
@@ -469,7 +469,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #2c3e50 !important; /* Navy blue */
 }
 
 #skills .card.large {
@@ -555,8 +555,9 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #34495e !important; /* Cool navy gray */
 }
+
 
 /* .teal {
   background-color: #00695c !important;
