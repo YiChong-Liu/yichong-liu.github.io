@@ -323,8 +323,8 @@ h3 {
 } */
 
 #intro.section {
-  background: radial-gradient(circle at 25% 20%, rgba(37, 99, 235, 0.45) 0%, rgba(37, 99, 235, 0) 55%),
-              linear-gradient(135deg, #0F172A 0%, #152238 55%, #1E3A5F 100%);
+  background: radial-gradient(circle at 25% 20%, rgba(59, 130, 246, 0.35) 0%, rgba(37, 99, 235, 0) 60%),
+              linear-gradient(135deg, #1E3A5F 0%, #2563EB 50%, #3B82F6 100%);
   position: relative;
 }
 
