@@ -198,7 +198,7 @@ nav i {
 /* main */
 
 /* main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: #ffffff;
   padding-left: 190px;
 } */
 
@@ -323,13 +323,13 @@ h3 {
 } */
 
 #intro.section {
-  background: #ffffff;
+  background: #ffffff !important;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
-  font-weight: 200;
+  color: #1e293b;
+  font-weight: 400;
   left: 0;
   position: absolute;
   top: 0;
@@ -343,11 +343,9 @@ h3 {
 } */
 
 #intro.section .container *:not(span) {
-  font-weight: 300;
-  /* font-weight: 400; */
+  font-weight: 400;
   line-height: 150%;
-  /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: none !important;
 }
 
 #intro.section .underline {
@@ -564,7 +562,14 @@ small {
 /* .teal */
 
 .teal {
-  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important; /* Tech blue gradient */
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important; /* Only for section title bars */
+}
+
+/* Hero section override: no background on teal spans */
+#intro.section .teal {
+  background: transparent !important;
+  color: #2563EB !important;
+  padding: 0 10px;
 }
 
 
