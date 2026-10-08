@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>全录智伴 - 端云协同 AI 智能产品</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- 导航条 -->
+  <nav class="nav-sticky" id="mainNav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">全录智伴</a>
+      <div class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#specs">规格</a>
+        <a href="#tech">技术</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ① Hero 区：产品名 + 大图 -->
+  <section id="hero" class="section-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">全录智伴</h1>
+      <p class="hero-subtitle">端云协同 AI 智能产品，赋能办公自动化</p>
+      <p class="hero-tagline">一言即达 AI 办公 · 对话开启高效协作</p>
+    </div>
+    <div class="hero-image">
+      <img src="./product.jpg" alt="全录智伴产品图" />
+    </div>
+  </section>
+
+  <!-- ② 视频区（深色沉浸） -->
+  <section id="video" class="section-video">
+    <div class="video-container">
+      <h2 class="section-title-light">看见智能办公的未来</h2>
+      <div class="video-wrapper">
+        <video autoplay muted loop playsinline id="demoVideo">
+          <source src="./openvela_ai_assistant.mp4" type="video/mp4" />
+          您的浏览器不支持视频播放
+        </video>
+      </div>
+      <p class="video-caption">30秒体验全录智伴的核心功能</p>
+    </div>
+  </section>
+
+  <!-- ③ 三大核心功能 -->
+  <section id="features" class="section-features">
+    <div class="container-narrow">
+      <h2 class="section-title-dark">三大核心功能</h2>
+      
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎤</div>
+          <h3>会议录音 & 转写</h3>
+          <p>完整记录会议内容，转录成文字并智能总结要点。一键生成飞书文档，告别手动整理。</p>
+          <div class="feature-flow">
+            <span>录音会议</span> → <span>云端转录</span> → <span>归纳总结</span> → <span>飞书文档</span>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📷</div>
+          <h3>图文智录</h3>
+          <p>拍照识别关键信息，智能解析图片内容。快速生成总结，输出飞书文档。</p>
+          <div class="feature-flow">
+            <span>拍照上传</span> → <span>AI 分析</span> → <span>输出文档</span>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>AI 对话助手</h3>
+          <p>自然语言对话，快速获取办公信息；支持飞书群聊对话与今日群聊消息智能总结，一键输出飞书文档。</p>
+          <div class="feature-flow">
+            <span>自然对话</span> → <span>群聊对话</span> → <span>消息总结</span> → <span>飞书输出</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 技术规格参数表 -->
+  <section id="specs" class="section-specs">
+    <div class="container-narrow">
+      <h2 class="section-title-dark">技术规格</h2>
+      
+      <div class="specs-table">
+        <div class="spec-row">
+          <span class="spec-label">操作系统</span>
+          <span class="spec-value">OpenVela OS</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">处理器</span>
+          <span class="spec-value">BES2800 MCU</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">端侧模型</span>
+          <span class="spec-value">Beskws_V4.0<br /><small>唤醒率≥98%，延时≤500ms</small></span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">云端模型</span>
+          <span class="spec-value">Qwen3.5-omni + Paraformer-realtime-v2<br /><small>语音响应≤2.0s，识别准确率≥98%，图文理解≤50.0s</small></span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">工作功耗</span>
+          <span class="spec-value">30mA<br /><small>对比手机降低 90%</small></span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">端侧AI</span>
+          <span class="spec-value">BECO NPU<br /><small>关键词唤醒实时率≤0.2s</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 核心亮点 -->
+  <section id="tech" class="section-tech">
+    <div class="container-narrow">
+      <h2 class="section-title-dark">为什么选择全录智伴</h2>
+      
+      <div class="highlight-grid">
+        <div class="highlight-item">
+          <div class="highlight-number">01</div>
+          <h3>信息高效归纳总结</h3>
+          <p>智能提炼会议要点与群聊消息，快速生成文档，大幅提升整理效率</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-number">02</div>
+          <h3>操作简单高效</h3>
+          <p>一键录音，拍照即对话，处理快，省时省力</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-number">03</div>
+          <h3>无缝集成飞书</h3>
+          <p>一键输出飞书文档，信息流转更顺畅</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-number">04</div>
+          <h3>专注办公场景</h3>
+          <p>深度适配办公流程，解决真实办公痛点</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <img src="./product-signed.jpg" alt="全录智伴 - 华勤技术" class="footer-logo" />
+      <p class="footer-text">
+        全录智伴 · 软件中心三部出品<br />
+        基于 OpenVela OS 运行的 AI Agent 办公助手，由云端 AI 大模型赋能
+      </p>
+      <p class="footer-copyright">作者：<a href="https://github.com/YiChong-Liu" target="_blank" rel="noopener">刘一翀 Yichong Liu</a></p>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
