@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #3B82F6;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -112,7 +112,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #3B82F6;
   background-color: white;
 }
 /* main body */
@@ -233,7 +233,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: #1D4ED8;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -316,7 +316,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #2c3e50 repeat;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 50%, #BFDBFE 100%);
   position: relative;
 }
 
@@ -469,7 +469,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #2c3e50 !important; /* Navy blue */
+  border-bottom: 3px solid #2563EB !important; /* Pure tech blue */
 }
 
 #skills .card.large {
@@ -545,7 +545,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #2563EB !important;
 }
 
 /* .teal-text {
@@ -555,7 +555,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #34495e !important; /* Cool navy gray */
+  background-color: #2563EB !important; /* Pure tech blue (Huaqin style) */
 }
 
 
