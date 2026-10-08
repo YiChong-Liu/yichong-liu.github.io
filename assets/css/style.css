@@ -51,7 +51,7 @@
 }
 
 .github {
-  color: black;
+  color: #fff;
 }
 
 .linkedin {
@@ -76,7 +76,7 @@
 }
 
 .github:hover {
-  background-color: black;
+  background-color: #2563EB;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -93,6 +93,13 @@
   display: inline-block;
   border-radius: 5px;
   -webkit-border-radius: 5px;
+  transition: all 0.25s ease;
+}
+
+.readme:hover {
+  background: #2563EB;
+  border-color: #2563EB;
+  color: #fff;
 }
 
 
@@ -316,7 +323,8 @@ h3 {
 } */
 
 #intro.section {
-  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 50%, #BFDBFE 100%);
+  background: radial-gradient(circle at 25% 20%, rgba(37, 99, 235, 0.45) 0%, rgba(37, 99, 235, 0) 55%),
+              linear-gradient(135deg, #0F172A 0%, #152238 55%, #1E3A5F 100%);
   position: relative;
 }
 
@@ -348,6 +356,8 @@ h3 {
 }
 
 #intro.section .teal {
+  background: transparent !important;
+  color: #60A5FA;
   padding: 0 10px;
 }
 
@@ -555,7 +565,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #2563EB !important; /* Pure tech blue (Huaqin style) */
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important; /* Tech blue gradient */
 }
 
 
