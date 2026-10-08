@@ -51,7 +51,7 @@
 }
 
 .github {
-  color: #fff;
+  color: black;
 }
 
 .linkedin {
@@ -76,7 +76,7 @@
 }
 
 .github:hover {
-  background-color: #2563EB;
+  background-color: black;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -323,8 +323,7 @@ h3 {
 } */
 
 #intro.section {
-  background: radial-gradient(circle at 25% 20%, rgba(59, 130, 246, 0.35) 0%, rgba(37, 99, 235, 0) 60%),
-              linear-gradient(135deg, #1E3A5F 0%, #2563EB 50%, #3B82F6 100%);
+  background: #ffffff;
   position: relative;
 }
 
