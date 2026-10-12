@@ -75,6 +75,105 @@ body {
   color: #0066cc;
 }
 
+/* ===== 语言切换器（下拉菜单式）===== */
+.lang-switcher {
+  position: relative;
+  margin-left: 18px;
+  padding-left: 18px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lang-trigger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: 1px solid #d1d1d6;
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1d1d1f;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.lang-trigger:hover,
+.lang-switcher.open .lang-trigger {
+  border-color: #0066cc;
+  color: #0066cc;
+  background: #f0f6ff;
+}
+
+.lang-trigger-caret {
+  font-size: 10px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.lang-switcher.open .lang-trigger-caret {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 130px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  z-index: 1001;
+}
+
+.lang-switcher.open .lang-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #1d1d1f;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.lang-option:hover {
+  background: #f5f5f7;
+}
+
+.lang-option.active {
+  color: #0066cc;
+  font-weight: 600;
+  background: #f0f6ff;
+}
+
+.lang-option-check {
+  font-size: 13px;
+  opacity: 0;
+  margin-left: 16px;
+  transition: opacity 0.15s ease;
+}
+
+.lang-option.active .lang-option-check {
+  opacity: 1;
+}
+
 /* ===== ① Hero 区 ===== */
 .section-hero {
   min-height: 100vh;
@@ -396,8 +495,18 @@ body {
     padding: 0 16px;
   }
 
+  .lang-switcher {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .lang-trigger {
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+
   .nav-logo {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .nav-links {
@@ -499,6 +608,10 @@ body {
 
 /* 小屏手机 */
 @media (max-width: 380px) {
+  .nav-logo {
+    font-size: 13px;
+  }
+
   .nav-links {
     gap: 10px;
   }

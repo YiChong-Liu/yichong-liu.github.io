@@ -10,11 +10,11 @@
   <!-- 导航条 -->
   <nav class="nav-sticky" id="mainNav">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo">全录智伴</a>
+      <a href="#hero" class="nav-logo" data-i18n="nav.logo">全录智伴</a>
       <div class="nav-links">
-        <a href="#features">功能</a>
-        <a href="#specs">规格</a>
-        <a href="#tech">技术</a>
+        <a href="#features" data-i18n="nav.features">功能</a>
+        <a href="#specs" data-i18n="nav.specs">规格</a>
+        <a href="#tech" data-i18n="nav.tech">技术</a>
       </div>
     </div>
   </nav>
@@ -22,9 +22,9 @@
   <!-- ① Hero 区：产品名 + 大图 -->
   <section id="hero" class="section-hero">
     <div class="hero-content">
-      <h1 class="hero-title">全录智伴</h1>
-      <p class="hero-subtitle">端云协同 AI 智能产品，赋能办公自动化</p>
-      <p class="hero-tagline">一言即达 AI 办公 · 对话开启高效协作</p>
+      <h1 class="hero-title" data-i18n="hero.title">全录智伴</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">端云协同 AI 智能产品，赋能办公自动化</p>
+      <p class="hero-tagline" data-i18n="hero.tagline">一言即达 AI 办公 · 对话开启高效协作</p>
     </div>
     <div class="hero-image">
       <img src="./product.jpg" alt="全录智伴产品图" />
@@ -34,47 +34,47 @@
   <!-- ② 视频区（深色沉浸） -->
   <section id="video" class="section-video">
     <div class="video-container">
-      <h2 class="section-title-light">看见智能办公的未来</h2>
+      <h2 class="section-title-light" data-i18n="video.title">看见智能办公的未来</h2>
       <div class="video-wrapper">
         <video autoplay muted loop playsinline id="demoVideo">
           <source src="./openvela_ai_assistant.mp4" type="video/mp4" />
-          您的浏览器不支持视频播放
+          <span data-i18n="video.fallback">您的浏览器不支持视频播放</span>
         </video>
       </div>
-      <p class="video-caption">30秒体验全录智伴的核心功能</p>
+      <p class="video-caption" data-i18n="video.caption">30秒体验全录智伴的核心功能</p>
     </div>
   </section>
 
   <!-- ③ 三大核心功能 -->
   <section id="features" class="section-features">
     <div class="container-narrow">
-      <h2 class="section-title-dark">三大核心功能</h2>
+      <h2 class="section-title-dark" data-i18n="features.sectionTitle">三大核心功能</h2>
       
       <div class="feature-grid">
         <div class="feature-card">
           <div class="feature-icon">🎤</div>
-          <h3>会议录音 & 转写</h3>
-          <p>完整记录会议内容，转录成文字并智能总结要点。一键生成飞书文档，告别手动整理。</p>
+          <h3 data-i18n="features.f1Title">会议录音 & 转写</h3>
+          <p data-i18n="features.f1Desc">完整记录会议内容，转录成文字并智能总结要点。一键生成飞书文档，告别手动整理。</p>
           <div class="feature-flow">
-            <span>录音会议</span> → <span>云端转录</span> → <span>归纳总结</span> → <span>飞书文档</span>
+            <span data-i18n="features.f1Flow1">录音会议</span> → <span data-i18n="features.f1Flow2">云端转录</span> → <span data-i18n="features.f1Flow3">归纳总结</span> → <span data-i18n="features.f1Flow4">飞书文档</span>
           </div>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">📷</div>
-          <h3>图文智录</h3>
-          <p>拍照识别关键信息，智能解析图片内容。快速生成总结，输出飞书文档。</p>
+          <h3 data-i18n="features.f2Title">图文智录</h3>
+          <p data-i18n="features.f2Desc">拍照识别关键信息，智能解析图片内容。快速生成总结，输出飞书文档。</p>
           <div class="feature-flow">
-            <span>拍照上传</span> → <span>AI 分析</span> → <span>输出文档</span>
+            <span data-i18n="features.f2Flow1">拍照上传</span> → <span data-i18n="features.f2Flow2">AI 分析</span> → <span data-i18n="features.f2Flow3">输出文档</span>
           </div>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">💬</div>
-          <h3>AI 对话助手</h3>
-          <p>自然语言对话，快速获取办公信息；支持飞书群聊对话与今日群聊消息智能总结，一键输出飞书文档。</p>
+          <h3 data-i18n="features.f3Title">AI 对话助手</h3>
+          <p data-i18n="features.f3Desc">自然语言对话，快速获取办公信息；支持飞书群聊对话与今日群聊消息智能总结，一键输出飞书文档。</p>
           <div class="feature-flow">
-            <span>自然对话</span> → <span>群聊对话</span> → <span>消息总结</span> → <span>飞书输出</span>
+            <span data-i18n="features.f3Flow1">自然对话</span> → <span data-i18n="features.f3Flow2">群聊对话</span> → <span data-i18n="features.f3Flow3">消息总结</span> → <span data-i18n="features.f3Flow4">飞书输出</span>
           </div>
         </div>
       </div>
@@ -84,32 +84,32 @@
   <!-- ④ 技术规格参数表 -->
   <section id="specs" class="section-specs">
     <div class="container-narrow">
-      <h2 class="section-title-dark">技术规格</h2>
+      <h2 class="section-title-dark" data-i18n="specs.sectionTitle">技术规格</h2>
       
       <div class="specs-table">
         <div class="spec-row">
-          <span class="spec-label">操作系统</span>
+          <span class="spec-label" data-i18n="specs.labelOS">操作系统</span>
           <span class="spec-value">OpenVela OS</span>
         </div>
         <div class="spec-row">
-          <span class="spec-label">处理器</span>
+          <span class="spec-label" data-i18n="specs.labelProcessor">处理器</span>
           <span class="spec-value">BES2800 MCU</span>
         </div>
         <div class="spec-row">
-          <span class="spec-label">端侧模型</span>
-          <span class="spec-value">Beskws_V4.0<br /><small>唤醒率≥98%，延时≤500ms</small></span>
+          <span class="spec-label" data-i18n="specs.labelEdgeModel">端侧模型</span>
+          <span class="spec-value">Beskws_V4.0<br /><small data-i18n="specs.noteEdgeModel">唤醒率≥98%，延时≤500ms</small></span>
         </div>
         <div class="spec-row">
-          <span class="spec-label">云端模型</span>
-          <span class="spec-value">Qwen3.5-omni + Paraformer-realtime-v2<br /><small>语音响应≤2.0s，识别准确率≥98%，图文理解≤50.0s</small></span>
+          <span class="spec-label" data-i18n="specs.labelCloudModel">云端模型</span>
+          <span class="spec-value">Qwen3.5-omni + Paraformer-realtime-v2<br /><small data-i18n="specs.noteCloudModel">语音响应≤2.0s，识别准确率≥98%，图文理解≤50.0s</small></span>
         </div>
         <div class="spec-row">
-          <span class="spec-label">工作功耗</span>
-          <span class="spec-value">30mA<br /><small>对比手机降低 90%</small></span>
+          <span class="spec-label" data-i18n="specs.labelPower">工作功耗</span>
+          <span class="spec-value">30mA<br /><small data-i18n="specs.notePower">对比手机降低 90%</small></span>
         </div>
         <div class="spec-row">
-          <span class="spec-label">端侧AI</span>
-          <span class="spec-value">BECO NPU<br /><small>关键词唤醒实时率≤0.2s</small></span>
+          <span class="spec-label" data-i18n="specs.labelEdgeAI">端侧AI</span>
+          <span class="spec-value">BECO NPU<br /><small data-i18n="specs.noteEdgeAI">关键词唤醒实时率≤0.2s</small></span>
         </div>
       </div>
     </div>
@@ -118,28 +118,28 @@
   <!-- ⑤ 核心亮点 -->
   <section id="tech" class="section-tech">
     <div class="container-narrow">
-      <h2 class="section-title-dark">为什么选择全录智伴</h2>
+      <h2 class="section-title-dark" data-i18n="tech.sectionTitle">为什么选择全录智伴</h2>
       
       <div class="highlight-grid">
         <div class="highlight-item">
           <div class="highlight-number">01</div>
-          <h3>信息高效归纳总结</h3>
-          <p>智能提炼会议要点与群聊消息，快速生成文档，大幅提升整理效率</p>
+          <h3 data-i18n="tech.h1Title">信息高效归纳总结</h3>
+          <p data-i18n="tech.h1Desc">智能提炼会议要点与群聊消息，快速生成文档，大幅提升整理效率</p>
         </div>
         <div class="highlight-item">
           <div class="highlight-number">02</div>
-          <h3>操作简单高效</h3>
-          <p>一键录音，拍照即对话，处理快，省时省力</p>
+          <h3 data-i18n="tech.h2Title">操作简单高效</h3>
+          <p data-i18n="tech.h2Desc">一键录音，拍照即对话，处理快，省时省力</p>
         </div>
         <div class="highlight-item">
           <div class="highlight-number">03</div>
-          <h3>无缝集成飞书</h3>
-          <p>一键输出飞书文档，信息流转更顺畅</p>
+          <h3 data-i18n="tech.h3Title">无缝集成飞书</h3>
+          <p data-i18n="tech.h3Desc">一键输出飞书文档，信息流转更顺畅</p>
         </div>
         <div class="highlight-item">
           <div class="highlight-number">04</div>
-          <h3>专注办公场景</h3>
-          <p>深度适配办公流程，解决真实办公痛点</p>
+          <h3 data-i18n="tech.h4Title">专注办公场景</h3>
+          <p data-i18n="tech.h4Desc">深度适配办公流程，解决真实办公痛点</p>
         </div>
       </div>
     </div>
@@ -149,14 +149,15 @@
   <footer class="footer">
     <div class="footer-content">
       <img src="./product-signed.jpg" alt="全录智伴 - 华勤技术" class="footer-logo" />
-      <p class="footer-text">
+      <p class="footer-text" data-i18n="footer.text">
         全录智伴 · 软件中心三部出品<br />
         基于 OpenVela OS 运行的 AI Agent 办公助手，由云端 AI 大模型赋能
       </p>
-      <p class="footer-copyright">作者：<a href="https://github.com/YiChong-Liu" target="_blank" rel="noopener">刘一翀 Yichong Liu</a></p>
+      <p class="footer-copyright"><span data-i18n="footer.author">作者：</span><a href="https://github.com/YiChong-Liu" target="_blank" rel="noopener">刘一翀 Yichong Liu</a></p>
     </div>
   </footer>
 
+  <script src="./js/i18n.js"></script>
   <script src="./js/main.js"></script>
 </body>
 </html>
