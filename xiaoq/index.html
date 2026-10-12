@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小Q - 桌面级情感陪伴机器人</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- 导航条 -->
+  <nav class="nav-sticky" id="mainNav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" data-i18n="nav.logo">小Q XiaoQ</a>
+      <div class="nav-links">
+        <a href="#features" data-i18n="nav.features">功能</a>
+        <a href="#specs" data-i18n="nav.specs">规格</a>
+        <a href="#ai" data-i18n="nav.ai">AI</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ① Hero 区 -->
+  <section id="hero" class="section-hero">
+    <div class="hero-content">
+      <h1 class="hero-title" data-i18n="hero.title">小 Q</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">桌面级情感陪伴机器人</p>
+      <p class="hero-tagline" data-i18n="hero.tagline">多模态感知 · 拟人交互 · 情感反馈</p>
+    </div>
+    <div class="hero-image">
+      <!-- 产品外观图占位 - 你稍后放入 xiaoq/assets/product.jpg -->
+      <img src="./assets/product.jpg" alt="小Q产品图" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="placeholder-box" style="display:none;">
+        <span class="placeholder-text" data-i18n="hero.imagePlaceholder">📷 产品外观图<br/>(稍后添加)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ② 核心功能区 -->
+  <section id="features" class="section-features">
+    <div class="container-narrow">
+      <h2 class="section-title-dark" data-i18n="features.sectionTitle">核心能力</h2>
+      
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">👁️</div>
+          <h3 data-i18n="features.f1Title">多模态感知</h3>
+          <p data-i18n="features.f1Desc">实时采集语音、图像、触觉多维度信息，构建对环境和用户的完整感知。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">❤️</div>
+          <h3 data-i18n="features.f2Title">情感识别与反馈</h3>
+          <p data-i18n="features.f2Desc">识别用户情绪状态，通过 LED 表情、语音语调、肢体动作给予个性化情感回应。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3 data-i18n="features.f3Title">自然对话与记忆</h3>
+          <p data-i18n="features.f3Desc">基于云端大模型的中英文自然对话，具备长期记忆能力，越用越懂你。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3 data-i18n="features.f4Title">六自由度运动</h3>
+          <p data-i18n="features.f4Desc">头部俯仰+左右旋转、双臂前后摆动、底盘360°旋转，支持路径规划与避障。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ AI 技术架构 -->
+  <section id="ai" class="section-ai">
+    <div class="container-narrow">
+      <h2 class="section-title-dark" data-i18n="ai.sectionTitle">AI 技术架构</h2>
+      
+      <div class="ai-modules">
+        <div class="ai-module">
+          <div class="module-number">01</div>
+          <h3 data-i18n="ai.m1Title">多模态感知模块</h3>
+          <p data-i18n="ai.m1Desc">实时采集语音、图像、触觉数据，融合理解用户意图与环境状态。</p>
+        </div>
+        <div class="ai-module">
+          <div class="module-number">02</div>
+          <h3 data-i18n="ai.m2Title">情感价值系统</h3>
+          <p data-i18n="ai.m2Desc">识别用户情绪（开心/难过/困倦），生成个性化情感回应策略。</p>
+        </div>
+        <div class="ai-module">
+          <div class="module-number">03</div>
+          <h3 data-i18n="ai.m3Title">对话与记忆系统</h3>
+          <p data-i18n="ai.m3Desc">云端大模型驱动自然对话，长期记忆用户偏好，持续优化交互体验。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 技术规格 -->
+  <section id="specs" class="section-specs">
+    <div class="container-narrow">
+      <h2 class="section-title-dark" data-i18n="specs.sectionTitle">技术规格</h2>
+      
+      <div class="specs-table">
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelChip">芯片平台</span>
+          <span class="spec-value">RK3576</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelDisplay">显示屏</span>
+          <span class="spec-value">0.7"²<br /><small data-i18n="specs.noteDisplay">生物表情表达</small></span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelMemory">内存</span>
+          <span class="spec-value">8GB + 64GB</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelBattery">电池</span>
+          <span class="spec-value">5000mAh 26V</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelSensors">感知传感器组</span>
+          <span class="spec-value" data-i18n="specs.valueSensors">摄像头 · 动作传感器 · 触摸传感器<br/>NIR红外热成像 · 温度传感器</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelLED">LED 表情灯</span>
+          <span class="spec-value" data-i18n="specs.valueLED">RGB灯：<br/><small>蓝呼吸=待机/思考 | 红闪烁=提醒/警告 | 绿常亮=开心/亲密</small></span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label" data-i18n="specs.labelMotion">运动系统</span>
+          <span class="spec-value" data-i18n="specs.valueMotion">6自由度机械结构<br/><small>头部俯仰+旋转 / 双臂摆动 / 底盘360°旋转 / 路径规划避障</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-text" data-i18n="footer.text">
+        小Q (XiaoQ) · 华勤技术 (Huaqin Technology)<br />
+        Desktop Emotional Companion Robot
+      </p>
+      <p class="footer-copyright"><span data-i18n="footer.author">作者：</span><a href="https://github.com/YiChong-Liu" target="_blank" rel="noopener">刘一翀 Yichong Liu</a></p>
+    </div>
+  </footer>
+
+  <script src="./js/i18n.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
