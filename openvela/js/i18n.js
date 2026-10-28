@@ -31,8 +31,9 @@ const i18nDict = {
       sectionTitle: '技术规格',
       labelOS: '操作系统', labelProcessor: '处理器', labelEdgeModel: '端侧模型',
       labelCloudModel: '云端模型', labelPower: '工作功耗', labelEdgeAI: '端侧AI',
-      noteEdgeModel: '唤醒率≥98%，延时≤500ms',
-      noteCloudModel: '语音响应≤2.0s，识别准确率≥98%，图文理解≤50.0s',
+      noteEdgeModel: '识别准确率99.1%，延时≤500ms',
+      valueEdgeModel: '自研 XiaoQ-KWS',
+      noteCloudModel: '语音响应≤2.0s，识别准确率≥98%，图文理解≤5s',
       notePower: '对比手机降低 90%',
       noteEdgeAI: '关键词唤醒实时率≤0.2s'
     },
@@ -81,8 +82,9 @@ const i18nDict = {
       sectionTitle: 'Technical Specifications',
       labelOS: 'Operating System', labelProcessor: 'Processor', labelEdgeModel: 'Edge Model',
       labelCloudModel: 'Cloud Model', labelPower: 'Power Consumption', labelEdgeAI: 'Edge AI',
-      noteEdgeModel: 'Wake-up rate ≥98%, latency ≤500ms',
-      noteCloudModel: 'Voice response ≤2.0s, recognition accuracy ≥98%, image understanding ≤50.0s',
+      noteEdgeModel: 'Recognition accuracy 99.1%, latency ≤500ms',
+      valueEdgeModel: 'XiaoQ-KWS (self-developed)',
+      noteCloudModel: 'Voice response ≤2.0s, recognition accuracy ≥98%, image understanding ≤5s',
       notePower: '90% lower than smartphones',
       noteEdgeAI: 'Keyword wake-up latency ≤0.2s'
     },
